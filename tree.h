@@ -114,20 +114,6 @@ public:
      return list_count(Q->left) + list_count(Q->right);
     }
 
-//    void my_count(node* tree, QMap<int,int>&m, int level)
-//    {
-////        m[level]++;
-
-////        if (tree->left)  my_count(tree->left,m,level+1);
-////        if (tree->right) my_count(tree->right,m,level+1);
-//          if (tree->left == NULL && tree->right==NULL){m[level]++;}
-////}else/*{
-////              m[level]=0;
-////          }*/
-
-//        if (tree->left)  my_count(tree->left,m,level+1);
-//        if (tree->right) my_count(tree->right,m,level+1);
-//    }
     void my_count(node* tree, int *m, int level)
     {
 //        m[level]++;

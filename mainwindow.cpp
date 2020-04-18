@@ -163,6 +163,7 @@ void MainWindow::on_count_clicked()
 {
 //    QMap<int,int> m;
 //     QMap<int, int>::iterator i;
+    uu = 0;
     int m[125]={0};
     ui->tableWidget_2->clear();
      ui->tableWidget_2->setHorizontalHeaderLabels({"On the level ","leaves"});
